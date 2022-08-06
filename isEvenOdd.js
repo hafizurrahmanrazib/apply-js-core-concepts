@@ -19,9 +19,7 @@ function checkOddEven(number) {
     if (remainder == 0) {
         return true;
     }
-    else {
-        return false;
-    }
+    return false;
 }
 const razibNumber = 98;
 const razibInputNumber = checkOddEven(razibNumber);
