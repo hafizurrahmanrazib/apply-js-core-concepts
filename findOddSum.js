@@ -52,7 +52,7 @@ console.log('Odd Number Sum:', oddNumberSum); */
 
 function findOddNumbers(numbers) {
     const oddNumbers = []
-    for (i = 0; i < numbers.length; i++) {
+    for (let i = 0; i < numbers.length; i++) {
         const index = i;
         const element = numbers[index];
         if (element % 2 === 1) {
@@ -64,7 +64,7 @@ function findOddNumbers(numbers) {
 
 function findOddSum(numbers) {
     let sum = 0;
-    for (i = 0; i < numbers.length; i++) {
+    for (let i = 0; i < numbers.length; i++) {
         const index = i;
         const element = numbers[index];
         sum = sum + element;
